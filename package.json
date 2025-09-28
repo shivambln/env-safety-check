@@ -1,0 +1,35 @@
+{
+  "name": "env-safety-check",
+  "version": "1.0.4",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "env-check": "dist/bin/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "validate": "node dist/bin/cli.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivambln/env-safety-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shivambln/env-safety-check.git/issues"
+  },
+  "homepage": "https://github.com/shivambln/env-safety-check.git#readme"
+}
+
+

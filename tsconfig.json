@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "CommonJS",
+        "outDir": "dist", // compiled JS goes here
+        "rootDir": "src", // source TS files
+        "strict": true,
+        "esModuleInterop": true,
+        "declaration": true // generate .d.ts files
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
